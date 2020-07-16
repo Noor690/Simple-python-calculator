@@ -14,6 +14,9 @@ def division(num1, num2):
 def multiply(num1, num2):
     return num1 * num2
 
+def exponential(num1, num2):
+    return num1 ** num2
+
 
 operation = input("Choose an operation:")
 
@@ -31,6 +34,10 @@ elif operation == "multiply":
 
 elif operation == "divide":
     print(num1 / num2)
+    
+elif operation == "exponent":
+    print(num1 ** num2)
+    
 
 else:
     print("Operation not available")
