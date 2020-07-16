@@ -17,6 +17,8 @@ def multiply(num1, num2):
 def exponential(num1, num2):
     return num1 ** num2
 
+def remainder(num1, num2):
+    return num1 % num2
 
 operation = input("Choose an operation:")
 
@@ -37,6 +39,9 @@ elif operation == "divide":
     
 elif operation == "exponent":
     print(num1 ** num2)
+    
+elif operation =="remainder":
+    print(num1 % num2)
     
 
 else:
